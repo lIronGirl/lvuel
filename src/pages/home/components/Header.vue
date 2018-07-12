@@ -1,8 +1,8 @@
 <template>
   <div class="header">
-      <div class="header-left"></div>
-      <div class="header-input"></div>
-      <div class="header-right"></div>
+      <div class="header-left">返回</div>
+      <div class="header-input">查询</div>
+      <div class="header-right">城市</div>
   </div>
 </template>
 
@@ -13,5 +13,22 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-
+  .header
+    display: flex
+    line-height : .86rem
+    background : #00bcd4
+    color: #fff
+    .header-left
+      width: .64rem
+      float left
+    .header-input
+      flex 1
+      height .64rem
+      margin-top .12rem
+      background #ffffff
+      border-radius .1rem
+    .header-right
+      width 1.24rem
+      float right
+      text-align center
 </style>
