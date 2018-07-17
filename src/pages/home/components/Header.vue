@@ -48,6 +48,5 @@ export default {
       float right
       text-align center
       .iconfont
-        // margin-left -.04rem
-
+        margin-left -.04rem
 </style>
