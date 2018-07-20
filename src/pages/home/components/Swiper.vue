@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper">
-    <swiper :options="swiperOption" ref="mySwiper" @someSwiperEvent="callback">
+    <swiper :options="swiperOption">
     <!-- slides -->
     <swiper-slide v-for="swiper of swiperList" :key="swiper.id">
       <img :src="swiper.imgurl" alt="" class="swiper-img">
@@ -17,8 +17,13 @@ export default {
   data () {
     return {
       swiperOption: {
-        autoplay: 2000,
-        pagination: '.swiper-pagination',
+        autoplay: {
+          delay: 2000,
+          disableOnInteraction: false
+        },
+        pagination: {
+          el: '.swiper-pagination'
+        },
         loop: true
       },
       swiperList: [{
@@ -36,6 +41,7 @@ export default {
 <style lang="stylus" scoped>
 .wrapper >>> .swiper-pagination-bullet-active
     background #fff
+
 .wrapper
   overflow hidden
   width 100%
