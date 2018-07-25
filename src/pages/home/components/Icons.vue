@@ -79,16 +79,18 @@ export default {
   .icons >>> .swiper-container
     height 0
     padding-bottom 50%
-  .icon
-    float left
-    width 25%
-    height 0
-    padding-bottom 25%
-    text-align center
-    .icon-img
-      width 70%
-    .icon-desc
-      margin-top 8%
-      color $darkTextColor
-      ellipsis()
+  .icons
+    margin-top .1rem
+    .icon
+      float left
+      width 25%
+      height 0
+      padding-bottom 25%
+      text-align center
+      .icon-img
+        width 70%
+      .icon-desc
+        margin-top 8%
+        color $darkTextColor
+        ellipsis()
 </style>
