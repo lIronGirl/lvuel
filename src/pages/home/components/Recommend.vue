@@ -6,7 +6,7 @@
       <img src="http://img1.qunarzz.com/sight/p0/1803/12/126471e0966aca5ba3.img.jpg_200x200_f1286016.jpg" alt="北京国际鲜花港">
       <p class="recommend-item-title">北京国际鲜花港</p>
       <div>
-        <span class="recommend-item-rate iconfont">&#58886;</span>
+        <span class="recommend-item-rate iconfont">&#xe60b;</span>
         <span class="recommend-item-comment-count">1927条评论</span>
       </div>
       <div>
